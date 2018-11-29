@@ -19,6 +19,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         // найдем View-элементы
         tvOut = (TextView) findViewById(R.id.tvOut);
         btnOk = (Button) findViewById(R.id.btnOk);
